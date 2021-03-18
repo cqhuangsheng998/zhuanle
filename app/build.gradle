@@ -1,0 +1,75 @@
+plugins {
+    id 'com.android.application'
+}
+apply plugin: 'com.mob.sdk'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.zhuanle.zhuanle"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    //  启用DataBinding  取消mvp，没有空纸指针异常
+    dataBinding{
+        enabled=true
+    }
+}
+MobSDK {
+    appKey "2ee4ea3869ea2"
+    appSecret "f8c4c1253e9ffe95ce51a64d289d95a1"
+    SMSSDK {
+        //默认使用GUI，若不使用GUI，通过以下开关关闭
+        //gui false
+        //若使用GUI的自动填充验证码功能，需打开此设置
+        autoSMS true
+    }
+
+    ShareSDK {
+        loopShare true
+        //平台配置信息 QQ需要上传安装包，微信需要验证才可以
+        devInfo {
+            Wechat {
+                appId "wx8329330b5f3a7ffc"
+                appSecret "79a6a4d431dc49448a6f8ae16eaa51be"
+                enable true
+            }
+            QQ {
+                appId "101930113"
+                appKey "df5b8c92dd00d1ddecabe3021746ee4c"
+            }
+        }
+
+    }
+}
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation files('libs/tbs_sdk.jar')
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation project(':libcommon')
+
+}

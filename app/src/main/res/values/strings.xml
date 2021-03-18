@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">zhuanle</string>
+    <string name="my">我的</string>
+    <string name="msg">消息</string>
+    <string name="home">首页</string>
+    <string name="statement">使用申明</string>
+    <string name="tiaoli">1.请您务必认真阅读本APP的服务协议及隐私政策，在本APP勿发一切不当言论.\n2.摄像头，麦克风，定位等权限不会默认开启，这些只有当您同意授权后才能使用。为了您更完善的使用本APP，我们在向您提供服务时需要收集您的相关权限：访问网络，访问通讯录，读写存储空间，接收信息，摄像拍照，录音，定位.我们会严格遵守隐私政策，请参考服务政策与隐私条例.</string>
+    <string name="tiaoli2">如果您认可我们的服务，请点同意！</string>
+    <string name="exits">退出</string>
+    <string name="agree">同意</string>
+    <string name="yinsi_fuwu">服务政策与隐私条例</string>
+</resources>

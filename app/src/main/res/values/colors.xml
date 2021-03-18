@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="textPrimary">#4e5864</color>
+    <color name="transparent_half">#80000000</color> <!--半透明-->
+    <color name="zhu_hui">#d7c6f1</color>
+
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_000">#000000</color>
+    <color name="color_333">#333333</color>
+    <color name="color_666">#666666</color>
+    <color name="color_999">#999999</color>
+    <color name="green">#88FF88</color>
+    <color name="green3">#03931C</color>
+    <color name="greensuccess">#48D865</color>
+    <color name="grey">#929292</color>
+    <color name="grey_white">#E9E9E9</color>
+    <color name="grey2">#575857</color>
+    <color name="color_2f2">#2f2f2f</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_white_night_grey">#ffffff</color>
+    <color name="send_file_action_bar">#2C2C2C</color>
+    <color name="common_list_custom_divider">#e8eaee</color><!-- e8eaee now:feiliao冷色 -->
+    <color name="bule">#7C7dE7</color>
+    <color name="violet">#F33FCD</color>
+    <color name="zhu_weight">#FBCE60</color>
+    <color name="yellowWing">#FBC121</color>
+    <!-- <color name="color_theme">#9E71E6</color>-->
+    <color name="color_theme">#F63922</color>
+    <color name="zhu_background">#E3E2E2</color>
+
+    <color name="chattext">#B3B3B3</color>
+
+    <color name="zhu1">#d6d6f7</color>
+    <color name="zhu_weight1">#f8cbb1</color>
+    <color name="color_theme_10">#f994b2</color>
+    <color name="color_f4f">#f4f4f4</color>
+    <color name="color_gray">#F8F9F9</color>
+    <color name="color_gray2">#F4F3F4</color>
+    <color name="color_3d3">#3d3d3d</color>
+    <color name="color_divider">#f2f2f2</color>
+    <color name="black">#000000</color>
+    <color name="black_nonight">#000000</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="red_qian">#EC5E68</color>
+    <color name="red">#E22018</color>
+
+    <color name="yellow2">#E7EBEF</color>
+    <color name="yellow3">#FCDD3F</color>
+    <color name="red2">#F7683F</color>
+    <color name="bule2">#2377FF</color>
+    <color name="backgroud">#F5F5F5</color>
+</resources>
