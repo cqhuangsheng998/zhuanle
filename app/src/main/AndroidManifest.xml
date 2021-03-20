@@ -68,7 +68,7 @@
         tools:replace="android:label,android:allowBackup">
         <activity android:name=".activity.SplashActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Start"
+            android:theme="@style/AppTheme.Start"
             tools:ignore="LockedOrientationActivity"
             >
             <intent-filter>

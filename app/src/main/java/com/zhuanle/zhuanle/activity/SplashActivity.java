@@ -104,7 +104,6 @@ public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        KLog.e("sdfsdfsdfsdfsf");
         super.onDestroy();
     }
 

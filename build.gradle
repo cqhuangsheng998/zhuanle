@@ -11,6 +11,10 @@ buildscript {
         classpath 'com.mob.sdk:MobSDK:+'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.5'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        // classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.4'
+          //注意不能少了aspectjtools的依赖，否则会报错
+        //    classpath 'org.aspectj:aspectjtools:1.8.13'
+
     }
 }
 

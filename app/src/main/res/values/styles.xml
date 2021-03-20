@@ -9,13 +9,13 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
-<!--StartActivity Style 冷启动效果-->
-<style name="Start" >
-    <item name="android:windowBackground">@drawable/splash</item>
-    <item name="android:windowActionBar">false</item>
-    <item name="android:windowNoTitle">true</item>
-    <item name="android:windowFullscreen">true</item>
-</style>
+    <!--StartActivity Style 冷启动效果 前缀必须写AppTheme否则会启动失败-->
+    <style name="AppTheme.Start" >
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
     <!--   弹窗设置 -->
     <style name="jmui_default_dialog_style">
         <item name="android:windowIsFloating">true</item>

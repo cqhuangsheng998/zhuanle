@@ -78,7 +78,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
             FragmentTransaction ft = fragmentActivity.getSupportFragmentManager()
                     .beginTransaction();
-            KLog.e("hahjh:"+fragmentContentId+",hskfh:"+fragments.size());
            ft.add(fragmentContentId, fragments.get(0));
 
             try {
